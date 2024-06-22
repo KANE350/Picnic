@@ -1,0 +1,20 @@
+package com.kgr.picnic;
+
+import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+	
+	Scanner in = new Scanner(System.in);
+	int n = in.nextInt();
+	
+	for(int i=n; i<10; i++) {
+		System.out.println("n"+"*"+"i"+"="+(n*i));
+	}
+		
+	
+	
+
+ }
+}

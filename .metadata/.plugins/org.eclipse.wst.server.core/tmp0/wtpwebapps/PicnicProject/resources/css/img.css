@@ -1,0 +1,11 @@
+.main_logo {
+		background-image: url("../img/main-heder-logo-svg");
+		width: 20px;
+		height: 20px;
+	}
+	
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, .7), #fff0), url(../img/yeo-su.jpg) center center no-repeat, url(../img/yeo-su.jpg) center center no-repeat;
+    background-size: cover;
+    margin-bottom: 6rem;
+}

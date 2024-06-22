@@ -1,0 +1,63 @@
+package com.kgr.picnic;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		첫째 줄에는 영수증에 적힌 총 금액 
+//		X가 주어진다.
+//
+//		둘째 줄에는 영수증에 적힌 구매한 물건의 종류의 수 
+//		N이 주어진다.
+//
+//		이후 
+//		N개의 줄에는 각 물건의 가격 
+//		각 물건의 가격 a와
+//		개수 b가 공백을 사이에 두고 주어진다.
+
+//구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하면 Yes를 출력한다. 일치하지 않는다면 No를 출력한다.
+		
+//		String[] N = new String[100];
+		Scanner in = new Scanner(System.in);
+		
+		int X = in.nextInt();    //총 금액
+		int count = in.nextInt();
+		in.nextLine();
+		
+		String N[] = new String[count];
+		System.out.println(N.length + "길이");
+		
+		//int N = in.nextInt();   //물건의 종류와 수(총  줄)
+		
+		System.out.println(X);
+		System.out.println(count); 	
+//		System.out.println(N.length);
+		//String[] list = str.trim().split("\\s*,\\s*");
+		
+		for(int i=0; i<=count; i++) {
+			N[i]= in.nextLine();
+			String[] change = N[i].split("\\s");
+			
+			System.out.println(change.length+"여기");
+			
+			for(int j=0; j<=change.length; i++) {
+				 if(j%2 != 0) {
+					 String a = change[j];
+				 }
+				
+			}
+			
+			
+//			for(int j=1; j<=count; j++){
+//				String m[] = N[j].trim().split("\\s*");
+//			}
+			System.out.println(N[i]);
+//			System.out.println(N[i]= in.nextLine());
+			
+		}
+		
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.picnic.service;
+
+public interface MemberServiceImpl {
+
+}

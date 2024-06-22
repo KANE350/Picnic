@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\PicnicProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3568265478.index
+2198178256.index
+1174710912.index
+3052019918.index
+2837349021.index
+2275330909.index
+2469990646.index

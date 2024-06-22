@@ -1,0 +1,11 @@
+package com.picnic.dao;
+
+
+import java.util.List;
+
+import com.picnic.dto.MemberVO;
+
+public class MemberDAO {
+
+	public List<MemberDAO> selectMember() throws Exception;
+}

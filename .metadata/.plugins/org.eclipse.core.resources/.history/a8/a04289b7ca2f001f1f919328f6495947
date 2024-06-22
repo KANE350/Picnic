@@ -1,0 +1,5 @@
+package com.picnic.dao;
+
+public class MemberDAO {
+
+}

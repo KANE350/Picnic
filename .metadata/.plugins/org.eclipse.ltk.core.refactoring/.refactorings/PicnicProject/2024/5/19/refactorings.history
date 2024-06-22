@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PicnicProject/src/main/webapp/WEB-INF/views/TourismIntroduction.jsp&apos; to &apos;tourismIntroduction.jsp&apos;" description="Rename resource &apos;TourismIntroduction.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/TourismIntroduction.jsp" name="tourismIntroduction.jsp" stamp="1715423512816" updateReferences="true"/>
+</session>
